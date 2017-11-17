@@ -1,0 +1,18 @@
+{    
+      "manifest_version": 2,
+      "name": "gif2gifv",
+      "version": "0.1",
+    
+      "description": "Redirects Gif to gifv",
+        
+      "background": {
+        "scripts": ["background.js"]
+      },
+
+      "permissions": [
+        "*://i.imgur.com/*",
+        "*://*.gfycat.com/*",
+        "webRequest",
+        "webRequestBlocking"
+      ]
+}
